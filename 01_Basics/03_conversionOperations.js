@@ -5,12 +5,12 @@
 // let score = false
 let score = "Subh"
 
-console.log(typeof score)
-console.log(typeof (score))
+// console.log(typeof score)
+// console.log(typeof (score))
 
 let valueInNumber = Number(score)
-console.log(typeof valueInNumber)
-console.log(valueInNumber)
+// console.log(typeof valueInNumber)
+// console.log(valueInNumber)
 
 
 
@@ -26,7 +26,7 @@ console.log(valueInNumber)
 let isLoggedIn = undefined
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 // 1 => true ; 0 => false
 // "" => false
@@ -37,5 +37,18 @@ console.log(booleanIsLoggedIn)
 let someNumber = 36
 let stringSomeNumber = String(someNumber)
 
-console.log(stringSomeNumber);
-console.log(typeof stringSomeNumber);
+// console.log(stringSomeNumber);
+// console.log(typeof stringSomeNumber);
+
+/* **************************Operations***************************** */
+
+let value = 6
+let negValue = -value
+console.log(negValue);
+
+console.log(2+3)
+console.log(2-2)
+console.log(2*3)
+console.log(2/3)
+console.log(2**2)
+console.log(2%3)
